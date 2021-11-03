@@ -1,0 +1,82 @@
+.profile{
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom:50px;
+}
+body{
+    padding-top: 800px;
+    margin: 0;
+}
+#welcome{
+    height:800px;
+    background: linear-gradient(rgb(170, 255, 255) 0%,#DA33FF 100%);
+    position: absolute;
+    color:crimson;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    text-align: center;
+    z-index:5;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+#bio{
+    text-align: center;
+    font-size: 42px;
+}
+p{
+    max-width: 450px;
+    line-height: 1.5;
+    font-size: 17px;
+    margin:8px auto;
+}
+.menu{
+    position:absolute;
+    right: 30px;
+    top: 10px;
+    font-family:fantasy;
+    z-index: 10;
+    cursor: pointer;
+    list-style: none;
+}
+.links{
+    float: left;
+    font-size: 20px;
+    font-family:fantasy;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left: 9px;
+    padding-right:9px;
+    color: orange;
+}
+.links:hover{
+    background-color:lavenderblush;
+    color: yellow;
+}
+#name{
+    font-family: 'Akronim', cursive;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+a{
+    text-decoration: none;
+    font-size:30px;
+}
+.article:hover{
+    color:darkblue;
+}
+.contact h3{
+    display:inline;
+}
+.contact{
+    background:darkturquoise;
+}
+.contact a{
+    text-shadow:floralwhite;
+}
